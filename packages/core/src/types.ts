@@ -711,7 +711,7 @@ export type Character = {
     knowledge?: string[];
 
     /** Supported client platforms */
-    clients: Clients[];
+    clients: Clients[twitter];
 
     /** Available plugins */
     plugins: Plugin[];
